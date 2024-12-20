@@ -1,0 +1,16 @@
+---
+name: AWS SSM Discover parameters for ECS task definition secrets
+description: List parameters from SSM parameter store service, to be applied in an ECS task definition
+inputs:
+  path:
+    description: "Path used for the SSM Path prefix"
+    required: true
+  region:
+    description: "Region"
+    required: true
+outputs:
+  task-definition-secrets:
+    description: 'A list (\n separated) of pairs PARAM=arn:...'
+runs:
+  using: node20
+  main: dist/index.js

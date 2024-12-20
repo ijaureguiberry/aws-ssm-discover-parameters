@@ -1,0 +1,28 @@
+{
+  "name": "aws-ssm-discover-parameters",
+  "version": "0.0.1",
+  "description": "Discover SSM parameter store secrets from a Path prefix",
+  "main": "index.js",
+  "scripts": {
+    "package": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijaureguiberry/aws-ssm-discover-parameters.git"
+  },
+  "keywords": [
+    "AWS",
+    "Github",
+    "Actions"
+  ],
+  "author": "Ignacio Jaureguiberry",
+  "license": "MIT",
+  "homepage": "https://github.com/ijaureguiberry/aws-ssm-discover-parameters#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@aws-sdk/client-ssm": "^3.556.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}
