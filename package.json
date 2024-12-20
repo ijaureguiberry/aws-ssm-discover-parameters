@@ -1,6 +1,6 @@
 {
   "name": "aws-ssm-discover-parameters",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Discover SSM parameter store secrets from a Path prefix",
   "main": "index.js",
   "scripts": {
