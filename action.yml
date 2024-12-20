@@ -9,7 +9,7 @@ inputs:
     description: "Region"
     required: true
 outputs:
-  task-definition-secrets:
+  discovered-secrets:
     description: 'A list (\n separated) of pairs PARAM=arn:...'
 runs:
   using: node20
